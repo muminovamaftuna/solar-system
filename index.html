@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Galaxy - "Shimmering Jewels"</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+
+      <img class="background-image" src="NightSky.jpeg" draggable="false">
+
+      <div class="header-container">
+        <h1 class="main-heading">Galaxy - "Shimmering  Jewels"</h1>
+
+        <h2 class="credits"> <a href="" target="01Blank"></a></h2>
+      </div>
+    
+      <div class="solaris"></div>
+      <div class="etheris planet">
+        <div class="lynphea planet"></div>
+      </div>
+      <ul id="orbit-container" class="hiding">
+        <li class="etheris-orbit orbit-path"></li>
+      </ul>
+
+      <div class="options" id="options">
+        <h1 class="options-title" id="options-title">Options</h1>
+    
+          <h2 class="label">Show Orbits</h2>
+  
+          <input type="checkbox" class="checkbox" id="checkbox" onclick="saveCheckState()">
+
+      </div>
+
+    
+      <ul class="info-container" id="info-container">
+        <button class="info-item" id="button1" onclick="showUserInfo(0)">Solaria</button>
+        <button class="info-item" id="button2" onclick="showUserInfo(1)">Lynphea</button>
+        <button class="info-item" id="button3" onclick="showUserInfo(2)">Etheris</button>
+        <button class="info-item" id="button3" onclick="showUserInfo(3)">Our Team</button>
+
+        <div class="wrapper">
+          <div class="wrapper-text-holder">
+            <h1 id="title-info" class="wrapper-title">Title</h1>
+            <h2 id="wrapper-text" class="wrapper-text"></h2>
+          </div>
+        </div>
+      </ul>
+    
+  </body>
+</html>
