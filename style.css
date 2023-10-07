@@ -314,13 +314,13 @@ a:hover::after {
 
 .etheris {
   --size: 5vw;
-  background: linear-gradient(150deg, rgb(8, 0, 71), rgb(0, 55, 126));
+  background: linear-gradient(150deg, rgb(8, 0, 71), rgb(0, 55, 126) rgb(125, 207, 54), rgb(223, 104, 104) );
   animation: earth var(--etherisSpeed) infinite linear, shadow var(--etherisSpeed) infinite linear;
 }
 
 .lynphea {
   --size: 2.4vw;
-  background: linear-gradient(0deg, rgb(125, 207, 54), rgb(223, 104, 104));
+  background: linear-gradient(0deg, rgb(8, 0, 71), rgb(0, 55, 126));
   animation: moon calc(var(--etherisSpeed) / 13.83846) infinite linear, shadow calc(var( --etherisSpeed) / 13.83846) infinite linear;
 }
 
